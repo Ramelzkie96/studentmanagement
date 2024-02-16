@@ -1,6 +1,8 @@
 from django import forms 
 from .models import Student 
 
+# This is to update code in github lets see
+
 class StudentForm(forms.ModelForm):
     class Meta:
         model = Student 
